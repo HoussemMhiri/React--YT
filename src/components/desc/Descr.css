@@ -1,0 +1,48 @@
+.desc-container {
+  height: 104px;
+  width: 956px;
+
+  margin: -30px 64px 0px 64px;
+  padding: 10px;
+  background-color: rgb(246, 235, 235);
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.desc-container:hover {
+  background-color: #c6c6c6;
+}
+
+.desc-container span {
+  margin-bottom: 0;
+  color: black;
+  font-weight: 700;
+}
+.desc-container span:nth-child(4) {
+  display: block;
+  margin-top: 0.7em;
+  font-weight: 400;
+}
+
+.num-comm {
+  display: flex;
+  height: 24px;
+  margin: 64px 64px 24px 64px;
+  margin-top: 2em;
+}
+
+.comm {
+  font-size: 16px;
+  margin-right: 2em;
+}
+.sort {
+  cursor: pointer;
+}
+
+.sort span {
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 0.5em;
+}

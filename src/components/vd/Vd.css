@@ -1,0 +1,149 @@
+main {
+  padding: 32px 64px;
+  display: flex;
+}
+
+.titVD {
+  height: 28px;
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.subs-name {
+  display: flex;
+  height: 43px;
+  width: 472px;
+  margin: 12px 12px 0 0;
+}
+
+.subs-name img {
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.name-subsCount {
+  width: 130px;
+  margin: 0 0.8em;
+}
+.name-subsCount h4 {
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+.name-subsCount p {
+  font-size: 12px;
+  line-height: 25px;
+  color: #606060;
+}
+
+.subs-name button {
+  background-color: #0f0f0f;
+  color: white;
+  height: 36px;
+  width: 95px;
+  border-radius: 18px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  margin-left: -10px;
+}
+
+.subs-name button:hover {
+  opacity: 0.9;
+}
+
+.reply {
+  transform: rotateZ(180deg);
+  transform: rotateY(180deg);
+}
+
+.sec-cont {
+  display: flex;
+  height: 55px;
+  width: 956px;
+  margin: -4px 0 16px 0;
+  justify-content: space-between;
+}
+
+.likes {
+  display: flex;
+  height: 36px;
+  width: 472px;
+  margin-top: 0.5em;
+  padding: 4px 0;
+  justify-content: space-evenly;
+}
+
+.like-dislike {
+  width: calc(84px + 30px);
+  display: flex;
+  background-color: rgb(246, 235, 235);
+  border-radius: 24px;
+  padding: 0 0 0 10px;
+}
+
+.thumb-up {
+  height: 36px;
+  width: 85px;
+  cursor: pointer;
+}
+.thumb-up:hover {
+  background-color: #c6c6c6;
+  height: 28px;
+  border-radius: 24px;
+}
+
+.thumb-down {
+  height: 36px;
+  width: 52px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+.thumb-down:hover {
+  background-color: #c6c6c6;
+  height: 28px;
+  border-radius: 24px;
+}
+
+.share {
+  background-color: rgb(246, 235, 235);
+  border-radius: 24px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.share:hover {
+  background-color: #c6c6c6;
+}
+
+.download {
+  background-color: rgb(246, 235, 235);
+  border-radius: 24px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.download:hover {
+  background-color: #c6c6c6;
+}
+.more {
+  background-color: rgb(246, 235, 235);
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.more:hover {
+  background-color: #c6c6c6;
+}

@@ -1,0 +1,91 @@
+.all-comm-cont {
+  margin: 0px 64px;
+  width: 956px;
+}
+
+.myComment {
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.myComment p {
+  font-size: 14px;
+  color: #606060;
+  border-bottom: 1px solid #e4dddd;
+  margin-left: 1em;
+  width: 100%;
+}
+
+.user-comm-cont {
+  display: flex;
+}
+
+.words-cont {
+  height: 83px;
+  width: 860px;
+  margin-bottom: 3em;
+  font-size: 13px;
+  margin-left: 1em;
+}
+
+.userName {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  margin-right: 0.5em;
+  cursor: pointer;
+}
+
+.userDate {
+  font-size: 12px;
+  line-height: 18px;
+  color: #606060;
+  cursor: pointer;
+}
+
+.userDate:hover {
+  color: black;
+}
+
+.userInfo {
+  margin-bottom: 0.3em;
+}
+
+.userComm {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 0.5em;
+}
+
+.li-di {
+  font-size: 12px;
+  height: 36px;
+
+  display: flex;
+  align-items: center;
+}
+
+.theReply {
+  color: black;
+  cursor: pointer;
+  line-height: 32px;
+  text-align: center;
+  font-weight: 500;
+  margin-left: 1em;
+}
+
+.theReply:hover {
+  background-color: #c6c6c6;
+  border-radius: 25px;
+  width: 5%;
+}
+
+.material-icons {
+  margin-right: 0.5em;
+  cursor: pointer;
+}
+.material-icons:hover {
+  background-color: #c6c6c6;
+  border-radius: 25px;
+  width: 3%;
+}
