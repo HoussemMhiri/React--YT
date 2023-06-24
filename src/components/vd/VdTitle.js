@@ -7,7 +7,8 @@ import MoreHorizOutlinedIcon from "@mui/icons-material/MoreHorizOutlined";
 import "./Vd.css";
 
 const VdTitle = () => {
-  const fcbLogo = "http://127.0.0.1:5500/img/Screenshot%20(2265).png";
+  const fcbLogo =
+    "https://www.geosuper.tv/assets/uploads/updates/2023-05-05/24290_9349069_updates.jpg";
   const title =
     "Best Goals scored by FC BARCELONA 2022-23 ● English Commentary HD";
   const subsLogo = [
